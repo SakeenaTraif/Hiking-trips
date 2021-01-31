@@ -30,3 +30,7 @@ export const Title = styled.h1`
   color:red;
 `;
 
+export const SubTitle = styled.h3`
+  text-align: center;
+  color: black;
+`;

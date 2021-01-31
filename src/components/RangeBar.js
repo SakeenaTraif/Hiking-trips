@@ -1,13 +1,13 @@
-import { StyledSearchBar } from "../styles";
+import { StyledSearchBar,SubTitle } from "../styles";
 
 const RangeBar = (props) => {
   return (
     
 <div>
-<label class="form-label" for="customRange1" onChang={(event) => props.setRange(event.target.value)}>Example range
-</label>
-<div class="range">
-  <input type="range" class="form-range" id="customRange1" />
+<SubTitle className="form-label" for="customRange1" onChang={(event) => props.setRange(event.target.value)}>Trip Length
+</SubTitle>
+<div className="range">
+  <StyledSearchBar type="range" className="form-range" id="customRange1" />
 </div>
 </div>
   );
