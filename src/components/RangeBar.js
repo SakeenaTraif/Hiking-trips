@@ -8,7 +8,7 @@ const RangeBar = (props) => {
       </SubTitle>
       <div className="range">
         <StyledSearchBar
-          onChange={(event) => console.log(event.target.value)}
+          onChange={(event) => props.setRange(event.target.value)}
           type="range"
           className="form-range"
           id="customRange1"
