@@ -1,11 +1,12 @@
 import "./App.css";
-import Trips from "./components/Trips";
+import {Title} from "./styles";
+import TripList from "./components/TripList";
 
 function App() {
   return (
     <div>
-      <h1>Hiking Trips</h1>
-      <Trips />;
+      <Title>Hiking Trips</Title>
+      <TripList />;
     </div>
   );
 }

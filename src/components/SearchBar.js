@@ -1,4 +1,4 @@
-// import { StyledSearchBar } from "../styles";
+import { StyledSearchBar } from "../styles";
 
 const SearchBar = (props) => {
   return (
