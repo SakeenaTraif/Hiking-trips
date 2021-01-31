@@ -1,6 +1,6 @@
-import HikingList from "../hikingList";
+import hikingList from "../hikingList";
 
-const ViewList = (props) => {
+const Trips = (props) => {
   const trip = props.trip;
   return (
     <HikingList>
@@ -11,4 +11,4 @@ const ViewList = (props) => {
   );
 };
 
-export default ViewList;
+export default Trips;
