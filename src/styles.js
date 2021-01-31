@@ -27,7 +27,7 @@ export const TripWrapper = styled.div`
 
 export const Title = styled.h1`
   text-align: center;
-  color:red;
+  color: red;
 `;
 
 export const SubTitle = styled.h3`
